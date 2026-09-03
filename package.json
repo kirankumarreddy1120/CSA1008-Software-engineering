@@ -1,0 +1,15 @@
+{
+  "name": "weathergpt-meteorological-platform",
+  "version": "1.0.0",
+  "description": "WeatherGPT – Conversational AI for Weather Forecasting, Alerts and Climate Information (IMD / MoES)",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "test:backend": "cd backend && npm test"
+  },
+  "keywords": ["weather", "meteorology", "conversational-ai", "imd", "moes", "react", "express", "mysql", "climate", "disaster-management"],
+  "author": "WeatherGPT Development Team",
+  "license": "ISC"
+}

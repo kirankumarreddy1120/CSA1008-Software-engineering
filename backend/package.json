@@ -1,0 +1,20 @@
+{
+  "name": "weathergpt-backend",
+  "version": "1.0.0",
+  "description": "WeatherGPT – Conversational AI Backend for Weather Forecasting, Alerts and Climate Information (IMD / MoES)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/api.test.js"
+  },
+  "keywords": ["weather", "conversational-ai", "imd", "moes", "meteorology", "express", "mysql", "climate"],
+  "author": "WeatherGPT Project Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.7"
+  }
+}
